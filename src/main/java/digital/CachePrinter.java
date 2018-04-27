@@ -1,7 +1,7 @@
 package digital;
 
 import java.util.Map;
-import java.util.stream.Stream;
+import java.util.Optional;
 
 public class CachePrinter implements Runnable{
     Cache cache = Cache.getInstance();
@@ -22,12 +22,8 @@ public class CachePrinter implements Runnable{
         });
     }
 
-    private Integer getNbr(String file, Object val){
-        Object possibleNbr = ((Map)val).get(file);
-        if(possibleNbr == null){
-            return 0;
-        }else{
-            return new Integer(possibleNbr.toString());
-        }
+    private Integer getNbr(String file, Map<String, Integer> val){
+        Optional<Integer> possibleNbr = Optional.ofNullable(val.get(file));
+        return possibleNbr.orElse(0);
     }
 }
