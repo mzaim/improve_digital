@@ -21,6 +21,10 @@ public class Cache {
         content = new HashMap<>();
     }
 
+    /**
+     * standard get instance method for singletons
+     * @return
+     */
     public static synchronized Cache getInstance(){
         if(instance == null){
             instance = new Cache();
@@ -54,6 +58,9 @@ public class Cache {
         return new HashMap<>(content);
     }
 
+    /**
+     * used for testing
+     */
     void clear(){
         content = new HashMap<>();
     }

@@ -6,6 +6,11 @@ import java.util.Optional;
 public class CachePrinter extends Thread{
     Cache cache = Cache.getInstance();
 
+    /**
+     * retrieves the cache content,
+     * orders it by total occurrences
+     * and prints it to standard output
+     */
     @Override
     public void run() {
         Map<String, Map<String, Integer>> currentCache = cache.getContent();
@@ -44,11 +49,23 @@ public class CachePrinter extends Thread{
         return values;
     }
 
+    /**
+     * parse the number of occurrences from the cache
+     * in case the file did not contain the word and we have a null entry, 0 is returned
+     * @param file
+     * @param val
+     * @return
+     */
     private Integer getOccurrence(String file, Map<String, Integer> val){
         Optional<Integer> possibleNbr = Optional.ofNullable(val.get(file));
         return possibleNbr.orElse(0);
     }
 
+    /**
+     * returns total number of occurrences from the array structure
+     * @param value
+     * @return
+     */
     private Integer getValForOrder(Object[] value){
         return Integer.parseInt(value[1].toString());
     }
