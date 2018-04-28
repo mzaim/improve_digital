@@ -1,10 +1,7 @@
 package digital;
 
-import java.util.Comparator;
 import java.util.Map;
 import java.util.Optional;
-
-import static java.util.Collections.reverseOrder;
 
 public class CachePrinter extends Thread{
     Cache cache = Cache.getInstance();
@@ -12,21 +9,11 @@ public class CachePrinter extends Thread{
     @Override
     public void run() {
         Map<String, Map<String, Integer>> currentCache = cache.getContent();
-       /* currentCache.forEach((key, val) -> {
-            Integer occFile1 = getNbr(FilePaths.FILE1, val);
-            Integer occFile2 =  getNbr(FilePaths.FILE2, val);
-            Integer sum = occFile1 + occFile2;
-            System.out.print("<" + key + ">");
-            System.out.print("<" + sum + "> = ");
-            System.out.print("<" + occFile1 + "> + ");
-            System.out.println("<" + occFile2 + ">");
-        });*/
-
         currentCache.entrySet()
-                .stream()
-                .map(entry -> valuesArray(entry))
-                .sorted((x, y) -> Integer.compare(getValForOrder(y), getValForOrder(x))) //reverse x and y because I can't use Comparator.reverseOrder
-                .forEach(value -> {
+                .stream()       //turn into stream to be able to process each entry
+                .map(entry -> valuesArray(entry)) // turn each entry into a size 4 array
+                .sorted((x, y) -> Integer.compare(getValForOrder(y), getValForOrder(x))) //sort by total occurrences descending (reverse x and y because I can't use Comparator.reverseOrder)
+                .forEach(value -> {  //begin loop for display
                     System.out.print("<" + value[0] + ">");
                     System.out.print("<" + value[1] + "> = ");
                     System.out.print("<" + value[2] + "> + ");
@@ -34,18 +21,18 @@ public class CachePrinter extends Thread{
                 });
     }
 
-    private Integer getOccurence(String file, Map<String, Integer> val){
-        Optional<Integer> possibleNbr = Optional.ofNullable(val.get(file));
-        return possibleNbr.orElse(0);
-    }
-
-    private Integer getValForOrder(Object[] value){
-        return Integer.parseInt(value[1].toString());
-    }
-
+    /**
+     * splits the cache entry into a size 4 array for easier manipulation
+     * pos 0 = cache key
+     * pos 1 = total number of occurrences
+     * pos 2 = nbr of occurrences in file1
+     * pos 3 = nbr of occurrences in file2
+     * @param cacheEntry
+     * @return
+     */
     private Object[] valuesArray(Map.Entry<String, Map<String, Integer>> cacheEntry){
-        Integer occFile1 = getOccurence(FilePaths.FILE1, cacheEntry.getValue());
-        Integer occFile2 =  getOccurence(FilePaths.FILE2, cacheEntry.getValue());
+        Integer occFile1 = getOccurrence(FilePaths.FILE1, cacheEntry.getValue());
+        Integer occFile2 =  getOccurrence(FilePaths.FILE2, cacheEntry.getValue());
         Integer sum = occFile1 + occFile2;
 
         Object[] values = new Object[4];
@@ -55,5 +42,14 @@ public class CachePrinter extends Thread{
         values[3] = occFile2;
 
         return values;
+    }
+
+    private Integer getOccurrence(String file, Map<String, Integer> val){
+        Optional<Integer> possibleNbr = Optional.ofNullable(val.get(file));
+        return possibleNbr.orElse(0);
+    }
+
+    private Integer getValForOrder(Object[] value){
+        return Integer.parseInt(value[1].toString());
     }
 }

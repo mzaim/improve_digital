@@ -10,7 +10,7 @@ public class Cache {
 
     private static Cache instance;
     /**
-     * word -> thread/file name, occurences
+     * word -> thread/file name, occurrences
      */
     private static Map<String, Map<String, Integer>> content;
 
@@ -28,6 +28,13 @@ public class Cache {
         return instance;
     }
 
+    /**
+     * adds a word to the cache, retaining the file where it came from
+     * also, computes the number of occurrences per file
+     * and the total occurrences
+     * @param word
+     * @param file
+     */
     public synchronized void put(String word, String file){
         Map<String, Integer> fileOccurences = content.get(word);
         if(fileOccurences == null){
