@@ -18,7 +18,7 @@ public class Cache {
      * make the constructor private so no one can instantiate the class
      */
     private Cache(){
-        content = new HashMap<String, Map<String, Integer>>();
+        content = new HashMap<>();
     }
 
     public static synchronized Cache getInstance(){
@@ -28,7 +28,7 @@ public class Cache {
         return instance;
     }
 
-    public static synchronized void put(String word, String file){
+    public synchronized void put(String word, String file){
         Map<String, Integer> fileOccurences = content.get(word);
         if(fileOccurences == null){
             fileOccurences = new HashMap<>();
@@ -44,6 +44,10 @@ public class Cache {
      * accidental modification
      */
     public synchronized Map<String, Map<String, Integer>> getContent(){
-        return new HashMap<String, Map<String, Integer>>(content);
+        return new HashMap<>(content);
+    }
+
+    void clear(){
+        content = new HashMap<>();
     }
 }

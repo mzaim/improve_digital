@@ -3,17 +3,15 @@ package digital;
 import java.util.Map;
 import java.util.Optional;
 
-public class CachePrinter implements Runnable{
+public class CachePrinter extends Thread{
     Cache cache = Cache.getInstance();
 
     @Override
     public void run() {
         Map<String, Map<String, Integer>> currentCache = cache.getContent();
-
-        //<word> <total occurrences> = <occurrences in file1> + <occurrences in file2>
         currentCache.forEach((key, val) -> {
-            Integer occFile1 = getNbr("file1", val);
-            Integer occFile2 =  getNbr("file2", val);
+            Integer occFile1 = getNbr(FilePaths.FILE1, val);
+            Integer occFile2 =  getNbr(FilePaths.FILE2, val);
             Integer sum = occFile1 + occFile2;
             System.out.print("<" + key + ">");
             System.out.print("<" + sum + "> = ");

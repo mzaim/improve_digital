@@ -14,6 +14,7 @@ class CacheTest {
 
     @Test
     void put() {
+        cache.clear();
         cache.put("word1", "file1");
         cache.put("word2", "file1");
         cache.put("word3", "file1");
@@ -47,7 +48,7 @@ class CacheTest {
         expected.put("word4", w4);
         expected.put("word5", w5);
 
-        assertThat(actual, Matchers.<Map>is(expected));
+        assertThat(actual, Matchers.is(expected));
     }
 
     @Test

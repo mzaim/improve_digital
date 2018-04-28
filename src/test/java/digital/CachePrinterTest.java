@@ -11,6 +11,7 @@ public class CachePrinterTest {
 
     @BeforeAll
     public static void init(){
+        cache.clear();
         cache.put("word1", "file1");
         cache.put("word2", "file1");
         cache.put("word3", "file1");
