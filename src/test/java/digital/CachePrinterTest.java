@@ -12,16 +12,16 @@ public class CachePrinterTest {
     @BeforeAll
     public static void init(){
         cache.clear();
-        cache.put("word1", "file1");
-        cache.put("word2", "file1");
-        cache.put("word3", "file1");
-        cache.put("word3", "file1");
-        cache.put("word3", "file1");
-        cache.put("word4", "file2");
-        cache.put("word5", "file2");
-        cache.put("word1", "file2");
-        cache.put("word1", "file2");
-        cache.put("word2", "file2");
+        cache.put("word1", FilePaths.FILE1);
+        cache.put("word2", FilePaths.FILE1);
+        cache.put("word3", FilePaths.FILE1);
+        cache.put("word3", FilePaths.FILE1);
+        cache.put("word3", FilePaths.FILE1);
+        cache.put("word4", FilePaths.FILE2);
+        cache.put("word5", FilePaths.FILE2);
+        cache.put("word1", FilePaths.FILE2);
+        cache.put("word1", FilePaths.FILE2);
+        cache.put("word2", FilePaths.FILE2);
     }
 
     /**

@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6013962d-ec4d-4fb2-916b-f957d3b50a5b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/digital/Cache.java" afterPath="$PROJECT_DIR$/src/main/java/digital/Cache.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/digital/CachePrinter.java" afterPath="$PROJECT_DIR$/src/main/java/digital/CachePrinter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/digital/CustomFileReader.java" afterPath="$PROJECT_DIR$/src/main/java/digital/CustomFileReader.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/digital/Main.java" afterPath="$PROJECT_DIR$/src/main/java/digital/Main.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/digital/CachePrinterTest.java" afterPath="$PROJECT_DIR$/src/test/java/digital/CachePrinterTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/digital/CacheTest.java" afterPath="$PROJECT_DIR$/src/test/java/digital/CacheTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/digital/CachePrinter.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/Readme.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -62,13 +59,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CachePrinter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CachePrinter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/digital/CachePrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="227">
+              <caret line="27" column="83" lean-forward="false" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1597#1598#0" expanded="true" />
+                <element signature="e#1657#1658#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/prg_inst/Java/jdk1.8.0_161/src.zip!/java/util/Comparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="183" column="26" lean-forward="false" selection-start-line="183" selection-start-column="26" selection-end-line="183" selection-end-column="26" />
+              <folding>
+                <element signature="e#7819#7820#0" expanded="true" />
+                <element signature="e#7872#7873#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,16 +91,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilePaths.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/digital/FilePaths.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,12 +119,12 @@
       <file leaf-file-name="CachePrinterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/digital/CachePrinterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="177">
+              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,7 +133,7 @@
       <file leaf-file-name="CacheTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/digital/CacheTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="7">
               <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -169,16 +171,16 @@
         <option value="$PROJECT_DIR$/src/test/java/digital/CacheTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/digital/CachePrinterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/digital/CachePrinter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/digital/CachePrinterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/digital/CacheTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/digital/Cache.java" />
         <option value="$PROJECT_DIR$/src/main/resources/file1" />
         <option value="$PROJECT_DIR$/src/main/resources/file2" />
         <option value="$PROJECT_DIR$/src/main/java/digital/FilePaths.java" />
         <option value="$PROJECT_DIR$/src/main/java/digital/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/digital/CachePrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/digital/CustomFileReader.java" />
         <option value="$PROJECT_DIR$/Readme.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/digital/CachePrinterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/digital/CachePrinter.java" />
       </list>
     </option>
   </component>
@@ -320,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.CachePrinterTest.testRun">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -477,8 +479,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CachePrinterTest.testRun" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CachePrinterTest.testRun" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.digital in assignment" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.CacheTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.CacheTest.put" />
@@ -517,39 +519,53 @@
       <option name="project" value="LOCAL" />
       <updated>1524850013878</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-">
+      <created>1524926534085</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524926534085</updated>
+    </task>
+    <task id="LOCAL-00005" summary="-">
+      <created>1524926562959</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524926562959</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CachePrinterTest_testRun - 2018.04.28 at 17h 19m 06s.xml">
+    <history-entry file="CachePrinterTest_testRun - 2018.04.28 at 18h 27m 06s.xml">
       <configuration name="CachePrinterTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CachePrinterTest_testRun - 2018.04.28 at 17h 20m 13s.xml">
+    <history-entry file="CachePrinterTest_testRun - 2018.04.28 at 18h 31m 42s.xml">
       <configuration name="CachePrinterTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CacheTest - 2018.04.28 at 16h 20m 47s.xml">
-      <configuration name="CacheTest" configurationId="JUnit" />
+    <history-entry file="CachePrinterTest_testRun - 2018.04.28 at 18h 35m 35s.xml">
+      <configuration name="CachePrinterTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CacheTest_put - 2018.04.28 at 16h 20m 34s.xml">
-      <configuration name="CacheTest.put" configurationId="JUnit" />
+    <history-entry file="CachePrinterTest_testRun - 2018.04.28 at 18h 36m 51s.xml">
+      <configuration name="CachePrinterTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CacheTest_put - 2018.04.28 at 16h 20m 35s.xml">
-      <configuration name="CacheTest.put" configurationId="JUnit" />
+    <history-entry file="CachePrinterTest_testRun - 2018.04.28 at 18h 40m 31s.xml">
+      <configuration name="CachePrinterTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CacheTest_put - 2018.04.28 at 16h 20m 37s.xml">
-      <configuration name="CacheTest.put" configurationId="JUnit" />
+    <history-entry file="CachePrinterTest_testRun - 2018.04.28 at 18h 41m 29s.xml">
+      <configuration name="CachePrinterTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CacheTest_put - 2018.04.28 at 16h 20m 38s.xml">
-      <configuration name="CacheTest.put" configurationId="JUnit" />
+    <history-entry file="CachePrinterTest_testRun - 2018.04.28 at 18h 48m 45s.xml">
+      <configuration name="CachePrinterTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CacheTest_put - 2018.04.28 at 16h 20m 40s.xml">
-      <configuration name="CacheTest.put" configurationId="JUnit" />
+    <history-entry file="CachePrinterTest_testRun - 2018.04.28 at 18h 50m 13s.xml">
+      <configuration name="CachePrinterTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CacheTest_put - 2018.04.28 at 16h 20m 41s.xml">
-      <configuration name="CacheTest.put" configurationId="JUnit" />
+    <history-entry file="CachePrinterTest_testRun - 2018.04.28 at 18h 55m 21s.xml">
+      <configuration name="CachePrinterTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="digital_in_assignment - 2018.04.28 at 16h 22m 52s.xml">
-      <configuration name="digital in assignment" configurationId="JUnit" />
+    <history-entry file="CachePrinterTest_testRun - 2018.04.28 at 18h 57m 54s.xml">
+      <configuration name="CachePrinterTest.testRun" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -565,13 +581,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44191095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17217484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -598,35 +614,38 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/digital/CachePrinter.java</url>
-          <line>10</line>
+          <line>25</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/digital/CachePrinter.java</url>
-          <line>12</line>
+          <url>jar://D:/prg_inst/Java/jdk1.8.0_161/src.zip!/java/util/Comparator.java</url>
+          <line>489</line>
           <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/digital/CachePrinter.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/digital/CachePrinter.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>Integer.compare(keyExtractor.applyAsInt(c1), keyExtractor.applyAsInt(c2))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>keyExtractor</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>c2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>instance</expression-string>
         <language-id>JAVA</language-id>
@@ -635,14 +654,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/digital/Cache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -691,8 +702,8 @@
           <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -721,6 +732,8 @@
           <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -766,6 +779,8 @@
           <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1020,25 +1035,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/digital/CacheTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/digital/FilePaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/digital/CachePrinterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,13 +1059,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/digital/CachePrinter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/digital/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/digital/CacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/digital/CachePrinterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/prg_inst/Java/jdk1.8.0_161/src.zip!/java/util/function/ToIntFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/prg_inst/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,27 +1140,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.txt">
+    <entry file="jar://D:/prg_inst/Java/jdk1.8.0_161/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="155">
+          <caret line="183" column="26" lean-forward="false" selection-start-line="183" selection-start-column="26" selection-end-line="183" selection-end-column="26" />
+          <folding>
+            <element signature="e#7819#7820#0" expanded="true" />
+            <element signature="e#7872#7873#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/digital/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/digital/CachePrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/digital/FilePaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="227">
+          <caret line="27" column="83" lean-forward="false" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
